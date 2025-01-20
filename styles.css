@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Exo 2", serif;
+}
+main {
+    margin: 2em;
+}
+header {
+    margin-top: 2em;
+}
+.bar {
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    padding: 0 2em;
+    border-radius: 8px;
+    color: #fff;
+    background-color: black;
+    margin: 0.5em 0;
+    /* display: none; */
+}
+.container-one,
+.container-two,
+.container-three,
+.container-four,
+.container-five {
+    border: 2px solid black;
+    margin: 0.5em 0;
+    padding: 0 0.5em;
+    border-radius: 8px;
+    display: none;
+}
+button {
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
